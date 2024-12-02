@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MobileAutomation", "PlaygroundAppAutomation\MobileAutomation.csproj", "{044D3489-5412-413D-966B-4816CB83961C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeAppAutomation", "HomeAppAutomation\HomeAppAutomation.csproj", "{6E64F127-7129-49BF-B1B5-D34A6D63510E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{044D3489-5412-413D-966B-4816CB83961C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044D3489-5412-413D-966B-4816CB83961C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{044D3489-5412-413D-966B-4816CB83961C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044D3489-5412-413D-966B-4816CB83961C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E64F127-7129-49BF-B1B5-D34A6D63510E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E64F127-7129-49BF-B1B5-D34A6D63510E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E64F127-7129-49BF-B1B5-D34A6D63510E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E64F127-7129-49BF-B1B5-D34A6D63510E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85D53343-C473-4B64-AE7E-F19DB94F0F62}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,30 @@
+{
+    "UserData": [
+      {
+        "Username": "8181818181",
+        "Password": "1010",
+        "InvalidUser": "9087654321",
+        "InvalidPass": "7809",
+        "UKUsername": "mayuri.kenjale+p01@xplortechnologies.com",
+        "UKPassword": "Xplor123!",
+        "NewUser": "mayuri.kenjale+ecoparent@xplortechnologies.com",
+        "NewPass": "Xplor123!"
+      }
+    ],
+    "UserContent": [
+      {
+        "EducatorName": "Test Educator",
+        "PostTitle": "New school year session started",
+        "PostDesc": "Dear parent, please enrolled your child for new school year session",
+        "Location": "Pune",
+        "IncidentActivityDrtails": "Machinary Problem",
+        "IncidentCause": "Machinary Faulure",
+        "IncidentCircumtance": "Normal",
+        "IncidentTaken": "Yes",
+        "IncidentFutureSteps": "Machinary Replaced",
+        "Fullname": "Babulal",
+        "Role": "Educator"
+
+      }
+    ]
+}

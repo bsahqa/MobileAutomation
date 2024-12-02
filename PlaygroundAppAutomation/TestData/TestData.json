@@ -1,0 +1,28 @@
+{
+    "UserData": [
+      {
+        "serviceUser": "Automation_Service",
+        "servicePass": "Xplor123!",
+        "EduUser": "9999999990",
+        "EduPin": "7390",
+        "EduEmail": "babulal.sah+automation@myxplor.com",
+        "EduPass": "Xplor123!"
+      }
+    ],
+    "UserContent": [
+      {
+        "ChildName": "Babulal",
+        "Name": "Morning Session",
+        "Email": "babulal.sah@xplortechinologies.com",
+        "Location": "Pune",
+        "IncidentActivityDrtails": "Machinary Problem",
+        "IncidentCause": "Machinary Faulure",
+        "IncidentCircumtance": "Normal",
+        "IncidentTaken": "Yes",
+        "IncidentFutureSteps": "Machinary Replaced",
+        "Fullname": "Babulal",
+        "Role": "Educator"        
+
+      }
+    ]
+}

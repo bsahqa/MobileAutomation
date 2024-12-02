@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<UseMaui>true</UseMaui>
+		<IsPackable>false</IsPackable>
+
+		<OutputType>Library</OutputType>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Reports\Screenshots\Screenshot_10_31_51.png" />
+
+		<None Remove="Reports\TestReport_2024_09_11_11_27_53.html" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Bogus" Version="35.6.1" />
+		<PackageReference Include="ExtentReports" Version="5.0.4" />
+		<PackageReference Include="log4net" Version="2.0.17" />
+		<PackageReference Include="Mailosaur" Version="8.7.0" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.3" />
+		<PackageReference Include="Appium.WebDriver" Version="4.4.5" />
+		<PackageReference Include="JWTDecoder" Version="0.9.2" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.7.2" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="NSelene" Version="1.0.0-alpha09" />
+		<PackageReference Include="NUnit" Version="3.13.3" />
+		<PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
+		<PackageReference Include="RestSharp" Version="108.0.3" />
+		<PackageReference Include="Slack.Webhooks" Version="1.1.5" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.32.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="AppBuildForTesting.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="configRunner.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="TestData\TestData.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Reports\Screenshots\" />
+	</ItemGroup>
+
+</Project>

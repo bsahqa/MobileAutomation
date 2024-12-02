@@ -1,0 +1,20 @@
+{
+  "RunType": "RemoteExecutor",
+  "BSUser": "abhishekrai10",
+  "BSToken": "FXkaUGMkqmnEuas56xCW",
+  "iOSOSVersion": "17.0",
+  "iOSDeviceName": "iPhone 15 Pro Max",
+  "AndroidOSVersion": "14",
+  "AndroidDeviceName": "Samsung Galaxy S24",
+  "BSAppPath": {
+    "Android": "bs://6042b950bd014b52ba76d1570bf5fb6deef46139",
+    "iOS": "bs://d0b525fcd1b434b9386b70d066673129edb71e64"
+  },
+  "AppCenterToken": "9a8d06b37ac649766511681fcc59e4d73c6bff36",
+  "LatestBuildRequired": "false",
+  "ReleaseVersion": "",
+  "IsRegressionRun": "false",
+  "ProjectName": "PES Education",
+  "BuildNameAndroid": "Playground_Android_Build",
+  "BuildNameIos": "Playground_iOS_Build"
+}

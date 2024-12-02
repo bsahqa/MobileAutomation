@@ -1,0 +1,17 @@
+{
+  "isProductionBuild": false,
+  "isMOQBuild": true,
+  "masterUserPrelogin": false,
+  "testingOS": "iOS",
+  "deviceType": "Phone",
+  "Phone": {
+    "Android": "PGApp.apk",
+    "iOS": "PGApp.ipa"
+  },
+  "Tablet": {
+    "Android": "",
+    "iOS": ""
+  },
+  "AndroidAppPackage": "com.xplor.home.staging",
+  "AndroidAppActivity": "com.xplor.home.features.initial.splash.SplashActivity"
+}
